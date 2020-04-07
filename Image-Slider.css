@@ -1,0 +1,9 @@
+.slider{
+     position: absolute;
+     top: 20%;
+     left: 25%;
+     width: 300px;
+     height: 375px;
+
+     background: url("https://dl.dropbox.com/s/h4g8vc576ur0ttu/Glory-LOGO.jpg?dl=1") center/cover;
+}
