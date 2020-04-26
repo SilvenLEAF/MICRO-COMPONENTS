@@ -6,3 +6,9 @@
 
      background: darkcyan;
 }
+.main::after, .footer{
+     content: "";
+     display: block;
+
+     height: 80px;
+}
