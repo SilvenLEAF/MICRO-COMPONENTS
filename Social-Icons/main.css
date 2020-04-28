@@ -5,6 +5,9 @@
      top: 30%;
      left: 5%;
 }
+/* +++++++++++++++++++++++++++++
+PLACE THE CARDS AND CENTER THE ICONS
++++++++++++++++++++++++++++++ */
 .btn{
      display: flex;
      align-items: center;
@@ -25,6 +28,10 @@
      transition: 0.2s linear;
 
 }
+/* +++++++++++++++++++++++++++++
+CREATE BEFORE GHOST OF THE CARDS AND
+IT IS THE BLUE COVER. SO PLACE IT WELL!!!
++++++++++++++++++++++++++++++ */
 
 .btn::before{
      content: "";
@@ -41,6 +48,10 @@
      top: 90%;
      left: -110%;
 }
+/* +++++++++++++++++++++++++++++
+GIVE THE HOVER EFFECTS AND ANIMATION
++++++++++++++++++++++++++++++ */
+
 .btn:hover i{
      color: #fff;
      transform: scale(1.3);
@@ -50,6 +61,10 @@
      top: -10%;
      left: -10%;
 }
+/* +++++++++++++++++++++++++++++
+.            CREATE THE SEXY ANIMATION
++++++++++++++++++++++++++++++ */
+
 @keyframes aaa {
      0%{
           top: 90%;
